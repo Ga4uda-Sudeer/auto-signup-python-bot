@@ -17,7 +17,8 @@ while 1:
         un = gen_rand_un()
 
         driver = webdriver.Chrome(chrome_path)
-        url = r"http://myshoutbox.ml/signup.php"
+        url = r"https://bremit.io/BR171056718"
+        
         driver.get(url)
         
         fname = driver.find_element_by_id("fname1")
